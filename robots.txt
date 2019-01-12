@@ -1,0 +1,7 @@
+#
+# robots.txt for CICMS
+#
+User-agent: * 
+Disallow: /admin
+Disallow: /index.php
+Disallow: /index.php/

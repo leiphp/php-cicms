@@ -1,0 +1,15 @@
+/*扩展CODE样式*/
+ pre { position: relative; font-family: Consolas, "Liberation Mono", Courier, "微软雅黑"; background-color: #F9F9F9; border: 1px solid #DDD !important; color: #333; display: block; margin: 0; padding: 6px; word-wrap: break-word; word-break: break-all;white-space:normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+ pre ol { color:#2BA5D8; padding-left: 36px; }
+ pre.webkit ol { /* 解决chrome浏览器数字不居中的问题 */
+    padding-left: 42px; }
+ pre ol li { border-left: 1px solid #DDD; list-style:decimal !important; overflow:visible !important; padding-left:5px !important;}
+ pre code { background-color: transparent; color: #333; padding: 0 0 0 2px; white-space: pre-wrap; margin: 0; border-left: 1px solid #FFF; height: 100%; vertical-align: top; display: inline-block; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+ pre .copycode { position: absolute; display: none; right: 0; top: 0; border: 1px solid #DDD; border-top: 0 none; border-right: 0 none; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-bottomleft: 3px; border-bottom-left-radius: 3px; }
+ pre .copycode a { font-size: 12px; line-height: 24px; padding: 0 10px; display: inline-block; }
+ pre .copycode.hover,  pre:hover .copycode { display: block; }
+
+
+
+
+.pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.prettyprint{padding:2px;border:1px solid #888;white-space: pre-wrap;}ol.linenums{margin-top:0;margin-bottom:0;}
